@@ -32,6 +32,8 @@ public class Scene extends Canvas implements Runnable
         this.addKeyListener(key_input);
         this.setFocusable(true);
         this.setPreferredSize(new Dimension(Settings.width, Settings.height));
+        
+        // Making a shape automatically 
 
         for(int x = 0; x < Settings.rows; x++)
         {
