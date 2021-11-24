@@ -33,7 +33,7 @@ public class Scene extends Canvas implements Runnable
         this.setFocusable(true);
         this.setPreferredSize(new Dimension(Settings.width, Settings.height));
         
-        // Code below makes a shape (+) automatically. Here can be written a code for any shape you want.
+        // Code below makes a shape (+) automatically. Here can be written a code for any shape you want or it can be removed.
 
         for(int x = 0; x < Settings.rows; x++)
         {
