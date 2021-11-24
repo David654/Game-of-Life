@@ -27,12 +27,10 @@ public class Handler
                 if(cell.isAlive())
                 {
                     cell.setAlive(cell.getNeighbours() == 2 || cell.getNeighbours() == 3);
-                    //cell.setAlive(cell.getNeighbours() >= 0);
                 }
                 else
                 {
                     cell.setAlive(cell.getNeighbours() == 3);
-                    //cell.setAlive(cell.getNeighbours() == 1);
                 }
                 cells.set(cell.getX() * Settings.cols + cell.getY(), cell);
             }
